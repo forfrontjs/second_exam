@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.show{
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background: linear-gradient(135deg,#f50 69.93%,#d6bb00);
+    transition: .2s ease,transform .2s ease;
+    border: none;
+    color: white;
+    font-size: 18px;
+}
+
+.alphabet{
+    background: #f50;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+}
+
+.sort{
+    background: #f50;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+}
+
+.movies h2{
+    color: #e7074f;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.titles li{
+    font-size: 22px;
+    color: black;
+    cursor: pointer;
+}
+
+.titles li:hover{
+    font-size: 24px;
+    color:  #3f68f9;
+}
